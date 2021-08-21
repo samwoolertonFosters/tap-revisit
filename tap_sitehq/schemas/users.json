@@ -1,0 +1,11 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": ["string"] },
+    "name": { "type": ["null", "string"] },
+    "company_name": { "type": ["null", "string"] },
+    "inserted_at": { "type": ["string"], "format": "date-time" },
+    "updated_at": { "type": ["string"], "format": "date-time" }
+  }
+}

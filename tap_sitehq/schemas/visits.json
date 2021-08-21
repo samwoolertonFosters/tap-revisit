@@ -1,0 +1,13 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": ["string"] },
+    "user_id": { "type": ["string"] },
+    "site_id": { "type": ["string"] },
+    "start": { "format": "date-time", "type": ["string"] },
+    "end": { "format": "date-time", "type": ["null", "string"] },
+    "inserted_at": { "format": "date-time", "type": ["string"] },
+    "updated_at": { "format": "date-time", "type": ["string"] }
+  }
+}

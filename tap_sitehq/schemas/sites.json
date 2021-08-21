@@ -1,0 +1,29 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": ["string"] },
+    "name": { "type": ["string"] },
+    "external_reference": { "type": ["null", "string"] },
+    "polygon": {
+      "type": ["null", "object"],
+      "properties": {
+        "coordinates": {
+          "type": ["array"],
+          "items": {
+            "type": ["array"],
+            "items": {
+              "type": ["array"],
+              "items": {
+                "type": ["number"]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "inserted_at": { "type": ["string"], "format": "date-time" },
+    "updated_at": { "type": ["string"], "format": "date-time" }
+  }
+}
